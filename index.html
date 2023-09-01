@@ -27,12 +27,13 @@
             border-radius: 8px;
             padding: 10px;
             background-color: white;
-            /* display: flex;
-            flex-direction: column; */
+            display: flex;
+            flex-direction: column;
             align-items: center;
             text-align: center;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             margin: 10px;
+            max-width: fit-content;
         }
 
         .thumbnail {
@@ -70,13 +71,15 @@
 </head>
 
 <body>
-    <div class="card">
-        <img class="thumbnail" src="**thumbnail**" alt="Mobile Thumbnail">
-        <div class="details">
-            <div class="title">**title**</div>
-            <div class="description">**description**</div>
-            <div class="price">**price**</div>
-            <div class="rating">&#9733; **rating** (1000+ ratings)</div>
+    <div class="container">
+        <div class="card">
+            <img class="thumbnail" src="**thumbnail**" alt="Mobile Thumbnail">
+            <div class="details">
+                <div class="title">**title**</div>
+                <div class="description">**description**</div>
+                <div class="price">**price**</div>
+                <div class="rating">&#9733; **rating** (1000+ ratings)</div>
+            </div>
         </div>
     </div>
 </body>
