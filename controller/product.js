@@ -51,7 +51,7 @@ exports.updateProduct = (req, res) => {
     products[productIndex] = { ...req.body, id }; // Preserve the existing ID
     res.status(202).json({ message: "Product updated successfully" });
   } else {
-    res.status(404).json({ message: "No product" });
+    res.status(404).json({ message: "No product found" });
   }
 };
 
